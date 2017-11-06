@@ -1,0 +1,18 @@
+.img-center {margin:0 auto;}
+.grey-bkgr {
+    background-color: #D3D3D3;
+}
+.fa-heading {
+    color:#3680C1;
+}
+
+/* Text on top of image */
+.top-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
