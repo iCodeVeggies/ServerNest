@@ -4,7 +4,7 @@
 <head>
   <title>Datacenter Switzerland</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/boot.css">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -32,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">ServerNest</a>
+          <a class="navbar-brand page-scroll" href="index.html#page-top"><img src="assets/images/ServerNest_Logo_15mm.jpg" alt="ServerNest"></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -150,7 +150,7 @@
                   <a href="about.html#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="about.html#office">Office</a>
+                  <a href="about.html#office">Office</a>
                 </li>
               </ul>
             </li>
@@ -161,15 +161,20 @@
     </nav>
 
     <!-- Header -->
-    <header style="background-image:url(assets/images/image_0.jpg)">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">What Level Of Fast Are You?</div>
-          <div class="intro-heading">Select your speed and stay in control</div>
-          <a href="#services" class="page-scroll btn btn-primary">Find Out More</a>
-        </div>
+    <header class="v-header container">
+      <div class="fullscreen-video-wrap">
+        <video src="assets/videos/servernest_header.mp4"
+          autoplay="" loop="">
+        </video>
       </div>
+      <div class="header-overlay"></div>
+      <div class="header-content text-md-center">
+        <h2>Fast. Safe. Swissmade.</h2>
+        <h1>Select your speed and stay in control.</h1>
+        <a href="#services" class="btn">Read More</a>
+      </div> 
     </header>
+
   </div>
   <!-- ===== services ===== -->
   <section id="services">
@@ -187,7 +192,8 @@
           <h4 class="service-heading">Infrastructure as a service (IAAS)</h4>
           <p class="text-muted">Profit of premium servers infrastructure colocated in premium datacenter. Redudancy is not an option at ServerNest,
             it is our standard at all level: power supply, network, and storage, and most importantly: also at the datacenter
-            level.</p>
+            level.
+          </p>
           <a href="javascript:void(0)">Find out more...</a>
         </div>
         <div class="col-md-4">
@@ -209,7 +215,7 @@
   </section>
 
   <!-- ===== solutions ===== -->
-  <section id="solutions" class="bg-success">
+  <section id="solutions" class="grey-bkgr">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -330,7 +336,7 @@
 
         </div>
       </div>
-     
+
     </div>
   </section>
   <script>	
@@ -346,8 +352,8 @@
     });
   </script>
 
-<!-- ===== providers ===== -->
-<section id="providers" class="grey-bkgr">
+  <!-- ===== providers ===== -->
+  <section id="providers">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -357,85 +363,91 @@
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <a href="javascript:void(0)"><img src="assets/images/logo-fujitsu.jpg" alt="Fujitsu" class="img-responsive img-center"></a>
+          <a href="javascript:void(0)">
+            <img src="assets/images/logo-fujitsu.jpg" alt="Fujitsu" class="img-responsive img-center">
+          </a>
         </div>
         <div class="col-md-4">
-            <a href="javascript:void(0)"><img src="assets/images/Microsoft_SPLA.png" alt="Microsoft" class="img-responsive img-center"></a>
-          </div>
-          <div class="col-md-4">
-              <a href="javascript:void(0)"><img src="assets/images/Parallels_corporate_logo.jpg" alt="Parallels" class="img-responsive img-center"></a>
-          </div>
+          <a href="javascript:void(0)">
+            <img src="assets/images/Microsoft_SPLA.png" alt="Microsoft" class="img-responsive img-center">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="javascript:void(0)">
+            <img src="assets/images/Parallels_corporate_logo.jpg" alt="Parallels" class="img-responsive img-center">
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
 
   <footer>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="col-md-3">
-              <ul class="nav nav-pills nav-stacked">
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <ul class="nav nav-pills nav-stacked">
-                <li>
-                  <a href="about.html#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
-                  <li>
-                    <a href="about.html#office">Our Office</a>
-                  </li>
-                </ul>
-              </div>
-            <div class="col-md-3">
-              <ul class="nav nav-pills nav-stacked">
-                <li>
-                  <a href="#">Legal</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
               <li>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
+                <a href="about.html">About</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4 col-md-offset-">
+          <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li>
+                <a href="about.html#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <br>
-            <span>&copy; 2017 ServerNest GmbH. All Rights Reserved.</span>
+          <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li>
+                <a href="about.html#office">Our Office</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li>
+                <a href="#">Legal</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-md-offset-">
+        </div>
+        <div class="col-md-4">
+          <br>
+          <span>&copy; 2017 ServerNest GmbH. All Rights Reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
